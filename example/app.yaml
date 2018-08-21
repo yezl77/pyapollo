@@ -1,0 +1,7 @@
+config_server_url: http://localhost:8080/
+app_id: test_application
+cluster:
+#timeout:65              #(单位: 秒) 可不配置 默认65秒 必须确保客户端访问服务端的超时时间要大于60秒。
+#ip:183.63.124.162       #可不配置 默认本地IP
+env_local:             # 配置中心出现异常是否启用本地配置 默认 True
+env_local_path: conf/        #本地配置路径  默认路径 conf/
